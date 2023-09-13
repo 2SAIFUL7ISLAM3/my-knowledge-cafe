@@ -1,5 +1,6 @@
 
 import './App.css'
+import Blogs from './Blogs/Blogs'
 import Header from './Header/Header'
 
 function App() {
@@ -8,6 +9,10 @@ function App() {
     <>
       
       <Header></Header>
+
+      <div>
+        <Blogs></Blogs>
+      </div>
       
       
     </>
